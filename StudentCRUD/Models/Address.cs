@@ -7,7 +7,6 @@ namespace StudentCRUD.Models
 {
     public class Address
     {
-        // Test
         public int ID { get; set; }
 	    public string StreetAddress { get; set; }
 	    public string City { get; set; }
