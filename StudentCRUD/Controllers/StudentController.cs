@@ -7,6 +7,7 @@ using StudentCRUD.Models;
 
 namespace StudentCRUD.Controllers
 {
+
     public class StudentController : Controller
     {
         //
