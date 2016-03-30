@@ -1,0 +1,1 @@
+& .\StudentCRUD.sln | Write-Host

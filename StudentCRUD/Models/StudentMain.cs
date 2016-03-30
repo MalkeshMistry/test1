@@ -11,6 +11,7 @@ namespace StudentCRUD.Models
     {
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnString"].ToString());
 
+      
         public string AddStudent(Student student)
         {
             string query = "insert into Student (FirstName,LastName,Standard)"
@@ -61,4 +62,5 @@ namespace StudentCRUD.Models
         //    return studentDetails;
         //}
     }
+
 }

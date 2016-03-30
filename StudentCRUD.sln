@@ -5,6 +5,15 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentCRUD", "StudentCRUD\StudentCRUD.csproj", "{82699A36-64E2-40E2-840A-59AF02219E40}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{871C995D-EEB7-4C72-9020-C2071894369B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student.Database", "Student.Database\Student.Database.csproj", "{132A6061-4AD8-44A3-9C02-122E4F8426D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +24,10 @@ Global
 		{82699A36-64E2-40E2-840A-59AF02219E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82699A36-64E2-40E2-840A-59AF02219E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82699A36-64E2-40E2-840A-59AF02219E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132A6061-4AD8-44A3-9C02-122E4F8426D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132A6061-4AD8-44A3-9C02-122E4F8426D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132A6061-4AD8-44A3-9C02-122E4F8426D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132A6061-4AD8-44A3-9C02-122E4F8426D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
